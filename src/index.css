@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap');
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Jost" sans-serif;
+  background-color: "#FFFFFFF";
+}
+
+.drop-area {
+  height: 100%;
+  border: 5px dashed black;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.drop-area {
+  background-color: #D6DFF8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.drop-area img {
+  margin-bottom: 10px;
+}
+
+.download-button,
+.search-button{
+  background-color: #0A4EFF;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.download-button:hover,
+.search-button:hover{
+  background-color: #6085e4;
+}
+
+.filter-button{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.filter-button:hover{
+  background-color: #C1D0F9;
+}
+
+select[name="field1"],
+select[name="field2"],
+select[name="field3"]{
+  padding: 10px; 
+  border: none; 
+  border-radius: 5px;
+}
+
+label[for="department"],
+label[for="doctor"]
+label[for="date"]{
+  font-size: 16px;
+}
+
+label{
+  font-size: 16px;
+}
+.checkboxes {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 686px;
+  height: 80px;
+}
+.checkboxesgroup1 {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 335px;
+height: 80px;
+}
+.checkboxesgroup2{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 335px;
+height: 80px;
+}
+.selects {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 940px;
+  height: 56px;
+}
+.date,
+.dep,
+.doc{
+  width: 100%;
+  font-size: 16px;
+  display: inline-block;
+}
+
+select#department,
+select#doctor,
+input#date{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 8px 4px 12px;
+gap: 8px;
+width: 202px;
+height: 32px;
+background: #FFFFFF;
+border: 2px solid rgba(33, 45, 69, 0.24);
+border-radius: 4px;
+}
+
+.data-highcharts-chart{
+  height: 200px;
+}
